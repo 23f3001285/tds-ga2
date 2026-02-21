@@ -19,9 +19,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.txt') }}
+          key: cache-6ff164d
           restore-keys: |
-            ${{ runner.os }}-pip-
+            cache-
 
       - name: Install dependencies
         run: pip install fastapi
