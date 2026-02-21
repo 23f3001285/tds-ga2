@@ -7,6 +7,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -15,7 +16,15 @@ jobs:
         run: echo "Email step present"
 
       - name: prime-cache-6ff164d
-        run: echo "Priming cache step"
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install fastapi
 
       - name: Final Step
-        run: echo "Done"
+        run: echo "Workflow completed"
