@@ -12,7 +12,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 23f3001285@ds.study.iitm.ac.in
-        run: echo "GitHub Actions is working"
+        run: echo "Email step present"
+
+      - name: prime-cache-6ff164d
+        run: echo "Priming cache step"
 
       - name: Final Step
         run: echo "Done"
