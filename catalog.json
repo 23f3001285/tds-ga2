@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "email": "23f3001285@ds.study.iitm.ac.in",
+    "version": "47a8e543"
+  },
+  "products": [
+    { "id": 1, "name": "Wireless Mouse", "category": "electronics", "price": 1299.99, "stock": 12, "rating": 4.4 },
+    { "id": 2, "name": "Bluetooth Headphones", "category": "electronics", "price": 3499.99, "stock": 8, "rating": 4.6 },
+
+    { "id": 3, "name": "Cotton T-Shirt", "category": "clothing", "price": 599.00, "stock": 40, "rating": 4.2 },
+    { "id": 4, "name": "Denim Jeans", "category": "clothing", "price": 1499.00, "stock": 25, "rating": 4.3 },
+    { "id": 5, "name": "Running Shoes", "category": "clothing", "price": 2499.00, "stock": 18, "rating": 4.5 },
+
+    { "id": 6, "name": "Office Chair", "category": "furniture", "price": 7999.00, "stock": 5, "rating": 4.1 },
+    { "id": 7, "name": "Study Table", "category": "furniture", "price": 6499.00, "stock": 7, "rating": 4.3 },
+    { "id": 8, "name": "Bookshelf", "category": "furniture", "price": 5499.00, "stock": 6, "rating": 4.2 },
+
+    { "id": 9, "name": "Notebook", "category": "stationery", "price": 49.00, "stock": 200, "rating": 4.0 },
+    { "id": 10, "name": "Ball Pen Pack", "category": "stationery", "price": 99.00, "stock": 150, "rating": 4.1 },
+    { "id": 11, "name": "Marker Set", "category": "stationery", "price": 199.00, "stock": 80, "rating": 4.2 },
+
+    { "id": 12, "name": "Water Bottle", "category": "home", "price": 299.00, "stock": 60, "rating": 4.3 },
+    { "id": 13, "name": "Wall Clock", "category": "home", "price": 899.00, "stock": 20, "rating": 4.4 },
+    { "id": 14, "name": "Bed Sheet", "category": "home", "price": 1299.00, "stock": 15, "rating": 4.5 },
+
+    { "id": 15, "name": "Yoga Mat", "category": "fitness", "price": 799.00, "stock": 30, "rating": 4.4 },
+    { "id": 16, "name": "Dumbbells Set", "category": "fitness", "price": 2999.00, "stock": 10, "rating": 4.6 },
+
+    { "id": 17, "name": "Cooking Pan", "category": "kitchen", "price": 1499.00, "stock": 14, "rating": 4.3 },
+    { "id": 18, "name": "Knife Set", "category": "kitchen", "price": 1999.00, "stock": 9, "rating": 4.5 },
+
+    { "id": 19, "name": "Backpack", "category": "accessories", "price": 1799.00, "stock": 22, "rating": 4.4 },
+    { "id": 20, "name": "Sunglasses", "category": "accessories", "price": 999.00, "stock": 35, "rating": 4.2 },
+
+    { "id": 21, "name": "Face Cream", "category": "beauty", "price": 499.00, "stock": 50, "rating": 4.1 },
+    { "id": 22, "name": "Shampoo", "category": "beauty", "price": 399.00, "stock": 45, "rating": 4.3 },
+    { "id": 23, "name": "Perfume", "category": "beauty", "price": 2499.00, "stock": 12, "rating": 4.6 }
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 2,
+      "inventoryValue": 43182.33
+    }
+  }
+}
